@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+
+#site {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	border-spacing: 0px;
+}
+
+#siteTitle {
+	height: 90px;
+	font-size: 20pt;
+	background-color: #899ab4;
+	color: white;
+	font-weight: 900;
+	padding-left: 20px;
+}
+
+#siteMenu {
+	height: 40px;
+	background-color: #9e9edd;
+	color: white;
+}
+
+#siteMenu a {
+	color: white;
+	margin-left: 20px;
+	font-weight: 800;	
+}
+
+#siteContent {
+	background: #e0f2f1;
+}
+
+#homeImg {
+	max-width: 70%;
+}

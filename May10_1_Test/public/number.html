@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>숫자 맞추기 게임</title>
+<meta charset="utf-8">
+<style>
+body {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+	<h1>숫자 맞추기 게임</h1>
+	<p>1부터 100 사이의 숫자를 맞춰보세요.</p>
+	<form onsubmit="event.preventDefault(); checkAnswer();">
+		<label for="guess">숫자 입력:</label> <input type="text" id="guess"
+			name="guess"> <input type="submit" value="확인">
+	</form>
+	<script>
+		var answer = Math.floor(Math.random() * 100) + 1;
+		var attempts = 0;
+
+		function checkAnswer() {
+			var guess = parseInt(document.querySelector('#guess').value);
+			if (guess === answer) {
+				alert('정답입니다! ' + attempts + '번 시도하셨습니다.');
+				answer = Math.floor(Math.random() * 100) + 1;
+				attempts = 0;
+			} else if (guess < answer) {
+				alert('더 큰 숫자를 입력해보세요!');
+				attempts++;
+			} else if (guess > answer) {
+				alert('더 작은 숫자를 입력해보세요!');
+				attempts++;
+			}
+			document.querySelector('#guess').value = '';
+		}
+	</script>
+</body>
+</html>

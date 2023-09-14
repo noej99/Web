@@ -1,0 +1,54 @@
+@charset "EUC-KR";
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	padding: 10px;
+}
+
+#allTable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	border-spacing: 0px;
+}
+
+#siteTitleArea {
+	background-color: #408080;
+	width: 100%
+}
+
+#siteTitleArea table {
+	font-size: 30pt;
+	color: black;
+	height: 100px;
+	font-weight: 900;	
+	padding-left: 50px;
+	color: white;
+}
+
+#siteMenuArea {
+	height: 50px;
+	font-size: 18pt;
+	padding-right: auto;
+	padding-left: auto;
+	width: 100%;
+	background-color: #67a9a6;
+}
+
+#siteContentArea {
+	font-size: 10pt;
+	padding-top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+}
+
+.homeImg {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}

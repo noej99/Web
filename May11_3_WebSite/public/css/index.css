@@ -1,0 +1,54 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "shine.ttf";
+	src: url("shine.ttf");
+}
+
+#siteArea {
+	/*가운데정렬*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+#siteTitle {
+	color: #ff00fa;
+	text-shadow: 4px 4px 3px #FFF0FA;
+	font-size: 30pt;
+	padding: 30px;
+	font-weight: 600; /* 굵게 */
+	border: #a49de1 outset 5px;
+	background-color: #bfdeee;
+	font-family: "shine.ttf";
+}
+
+#siteMenuArea {
+	border-top: #a49de1 solid 2px;
+	border-bottom: #a49de1 solid 2px;
+	background-color: #bfdeee;
+	height: 30px;
+	/* 글자관련된거는 빼고, 배경쪽*/
+}
+
+#siteMenuArea a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 95px;
+	margin-right: 95px;
+	font-family: "shine.ttf";
+	font-weight: 600;
+}
+
+#siteMenuArea a:hover {
+	color: #c0c749;
+}
+
+#siteContentArea {
+	padding-top: 50px;
+}
+
+#homeImg {
+	width: 50%;
+}

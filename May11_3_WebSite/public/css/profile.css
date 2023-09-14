@@ -1,0 +1,39 @@
+@charset "EUC-KR";
+
+.aProfile {
+	width: 800px;
+	border: #00ffff solid 1px; box-shadow : 1px 1px 1px black;
+	background-color: #b5eae8;
+	border-radius: 3px; /* 모서리깎기 */
+	margin: 20px;
+	box-shadow: 1px 1px 1px black;
+}
+
+.aProfile .td1 {
+	width: 100px;
+}
+
+.aProfile .td1 img {
+	max-width: 95px;
+	/* 95보다 큰거는 95로 줄이고
+	95보다 작은거는 그대로 */
+}
+
+.aProfile .td2 {
+	font-family: "shine";
+	font-size: 12pt;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.aProfile .td3{
+	font-family: "shine";
+	font-size: 10pt;
+	padding: 10px;
+}
+
+.aProfile .td4{
+	font-family: "shine";
+	font-size: 10pt;
+	padding: 10px;
+}

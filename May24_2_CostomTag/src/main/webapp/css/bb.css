@@ -1,0 +1,39 @@
+@charset "EUC-KR";
+
+#bbTable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	background-color: #2e7d32;
+	color: white;
+	border-spacing: 0px;
+}
+
+#bbTitle {
+	font-size: 40pt;
+	height: 100px;
+}
+
+#bbInput {
+	border: white solid 3px;
+	background: transparent;
+	color: white;
+	font-size: 20pt;
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	outline: none;
+}
+
+#bbBtn {
+	border: none;
+	background-color: transparent;
+	font-size: 20pt;
+	font-weight: 900;
+	color: white;
+}
+
+#resultTd {
+	font-size: 30pt;
+	padding: 30px;
+}

@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+
+.gal {
+	margin-top: 80px;
+}
+
+.gallery {
+	width: 277px;
+	box-shadow: 1px 1px 1px black;
+	margin: 10px;
+	background-color: #d9f4f3;
+	float: left; /* °ÝÀÚÇü */
+}
+
+.gallery img {
+	max-width: 250px;
+}
+
+.gallery .image, .gallery th {
+	padding: 5px;
+}

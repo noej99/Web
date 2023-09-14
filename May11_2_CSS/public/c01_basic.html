@@ -1,0 +1,75 @@
+	<!-- 
+		CSS(Cascading Style Sheet)
+			DOM객체에 디자인 부여
+			위치
+				.html의 head부분에
+				DOM객체 자체에
+				따로 .css파일
+			문법
+				selector {
+					속성명 : 값;
+					속성명 : 값;
+					...
+				}
+				...
+			CSS selector
+				기본형
+					태그명 : 그 태그명인 것들
+					#id값 : 그 id인 것
+					.class값 : class가 그거인 것들
+				조합형
+					기본형, 기본형, 기본형, .... : 여러개 선택
+					기본형 기본형 기본형 ...; : 내부 선택
+					기본형.class값
+				상태형
+					기본형:상태
+	 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+	div {
+	/* CSS주석 */
+	color: #ff00fa;
+	}
+	#i {
+		font-size: 20pt;
+	}
+	.c {
+		background-color: yellow;
+	}
+	div, h1 {
+		text-decoration: underline;
+	}
+	div h1 {
+		color: red;
+	}
+	h1.c {
+			/* x y blur color */
+		text-shadow: 3px 5px 10px blue;
+	}
+	.d.c {
+		font-size: 20pt;
+		box-shadow: -3px -2px 5px red;
+	}
+	h2:hover {
+		color: blue;
+	}
+	h2:active {
+		font-size: 20pt;
+	}
+</style>
+<link rel="stylesheet" href="c01.css">
+</head>
+<body>
+	<h2>ㅎㅇ</h2>
+	<div id="i">ㅋㅋㅋ</div>
+	<div class="c d">ㅎㅎㅎ</div>
+	<h1 class="c">ㅋㅋㅋ</h1>
+	<div> 
+	<h1>ㅠㅠ</h1>
+	</div>
+</body>
+</html>

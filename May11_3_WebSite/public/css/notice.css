@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+
+
+#noticeTable{
+	width: 800px;
+	margin-top: 80px;
+	/* 제목줄에만 */
+	background-color: #7decd0;
+	color: black;
+	border-spacing: 0px; /* td간의 간격 */
+	font-family: "shine";
+	
+}
+
+#noticeTable .th1{
+	width: 60px;
+	height: 30px;
+}
+
+#noticeTable .th2{
+	width: 600px;
+}
+
+
+
+#noticeTable td{
+	border-bottom: black solid 1px;
+}
+
+#noticeTable .dataTr {
+	background-color: white;
+	color: black;
+	font-family: "맑은 고딕";
+	cursor: pointer;
+			
+				/* ease-in ease-out linear */
+	/* 속성명 시간 속도조절 */
+	transition: all 0.3s ease-out;	
+	/* CSS3에 추가 -> IE에서는... */
+}
+
+#noticeTable .dataTr:hover {
+	background-color: #cfd8dc;
+}

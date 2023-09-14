@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>table</title>
+</head>
+<body>
+	<table border="1" width="300px" height="300px">
+		<tr>
+			<td align="right">1</td>
+			<td valign="bottom" height="200px">2</td>
+			<td align="center" valign="top">3</td>
+		</tr>
+		<tr>
+			<th>4</th>
+			<!-- 제목글자 - 가운데정렬, 굵게 -->
+			<td width="200px">5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<hr>
+	<table border="1" width="400px" height="600px">
+		<tr>
+			<td align="center">1</td>
+			<td align="center" colspan="2">2</td> <!-- colspan 열방향으로 "?"만큼 늘리기 -->
+		</tr>
+		<tr>
+			<td align="center">4</td>
+			<td align="center" rowspan="3">5</td> <!-- rowspan 행방향으로 "?"만큼 늘리기 -->
+			<td align="center">6</td>
+		</tr>
+		<tr>
+			<td align="center">7</td>
+			<td align="center">9</td>
+		</tr>
+		<tr>
+			<td align="center">10</td>
+			<td align="center">12</td>
+		</tr>
+	</table>
+	<hr>
+	<table border="1" width="400" height="400">
+		<tr>
+			<td rowspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr>
+	
+	
+</body>
+</html>
